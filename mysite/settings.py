@@ -30,7 +30,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['indianquotesapi-production.up.railway.app']
+ALLOWED_HOSTS = ['https://indianquotesapi-production.up.railway.app']
 
 
 # Application definition
@@ -138,6 +138,6 @@ REST_FRAMEWORK = {
     ),
 }
 
-CSRF_TRUSTED_ORIGINS = ['https://*']
+CSRF_TRUSTED_ORIGINS = ['https://indianquotesapi-production.up.railway.app']
 
 
